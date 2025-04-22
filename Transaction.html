@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Checkout - MyStore</title>
+    <link rel="stylesheet" href="D:\Shobha\Transaction.CSS">
+    <script defer src="D:\Shobha\Transaction.js"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="C:\Users\admin\Pictures\s.png" alt="Shobha Logo">
+        <input type="text" class="search-bar" placeholder="Search...">
+        <div class="header-right">
+            <div class="user"><a href="D:\Shobha\MyProfileShobha.html">Welcome!</a></div>
+                <div class="dropdown" id="userDropdown">
+                    <a href="D:\Shobha\MyProfileShobha.html">My Account</a>
+                </div>
+            </div>
+            <div class="cart"><a href="D:\Shobha\Cart.html">My Cart</a></div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="D:\Shobha\Birthday Navigation Bar.html">Birthday</a></li>
+            <li><a href="D:\Shobha\Baby Shower Navigation Bar.html">Baby Shower</a></li>
+            <li><a href="D:\Shobha\Anniversary Navigation Bar.html">Anniversary</a></li>
+            <li><a href="D:\Shobha\WeddingNavigationBar.html">Wedding</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="payment-page">
+        <h2>Checkout</h2>
+        
+        <!-- Order Summary -->
+        <div class="order-summary">
+            <h3>Order Summary</h3>
+            <p>Items: 3</p>
+            <p>Total: $36</p>
+        </div>
+
+        <!-- Payment Options Section -->
+        <div class="payment-options">
+            
+            <!-- UPI Section -->
+            <div class="payment-section" id="upi-section">
+                <h3>UPI Payment</h3>
+                <div class="payment-methods">
+                    <button class="payment-button" id="google-pay">Google Pay</button>
+                    <button class="payment-button" id="phonepe">PhonePe</button>
+                    <button class="payment-button" id="paytm">Paytm</button>
+                </div>
+            </div>
+
+            <!-- Credit Cards Section -->
+            <div class="payment-section" id="credit-cards-section">
+                <h3>Credit/Debit Card Payment</h3>
+                <form id="card-form">
+                    <label for="card-number">Card Number:</label>
+                    <input type="text" id="card-number" name="card-number" placeholder="**** **** **** ****" required>
+
+                    <label for="expiry-date">Expiry Date:</label>
+                    <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" name="cvv" placeholder="***" required>
+
+                    <label for="billing-address">Billing Address:</label>
+                    <input type="text" id="billing-address" name="billing-address" placeholder="Enter your address" required>
+                </form>
+            </div>
+
+            <!-- More Options Section -->
+            <div class="payment-section" id="more-options-section">
+                <h3>More Payment Options</h3>
+                <div class="payment-methods">
+                    <button class="payment-button" id="emi">EMI</button>
+                    <button class="payment-button" id="net-banking">Net Banking</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Pay Button -->
+        <div class="pay-button-container">
+            <button class="pay-button" id="pay-now-button">Proceed to Pay</button>
+        </div>
+        
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-section">
+            <h4>POLICY INFO</h4>
+            <ul>
+                <li><a href="D:\Shobha\Terms and Conditions.html">Terms & Conditions</a></li>
+                <li><a href="D:\Shobha\Privacy Policy.html">Privacy Policy</a></li>
+                <li><a href="D:\Shobha\Terms of Use.html">Terms of Use</a></li>
+                <li><a href="D:\Shobha\DisclaimerShobha.html">Disclaimer</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>ABOUT COMPANY</h4>
+            <ul>
+                <li><a href="D:\Shobha\About Us.html">About Us</a></li>
+                <li><a href="D:\Shobha\OurTeamShobha.html">Shobha Team</a></li>
+                <li><a href="D:\Shobha\Testimonials.html">Testimonials</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>SHOBHA BUSINESS</h4>
+            <ul>
+                <li><a href="D:\Shobha\MainPageShobha.html">Decoration Services</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>NEED HELP?</h4>
+            <ul>
+                <li><a href="D:\Shobha\ContactUsShobha.html">Contact Us</a></li>
+                <li><a href="D:\Shobha\FAQs.html">FAQs</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

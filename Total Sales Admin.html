@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total Sales Dashboard</title>
+    <link rel="stylesheet" href="D:\Shobha\Total Sales Admin.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <h1>Shobha</h1>
+            <div class="header-right">
+                <span>Welcome!</span>
+                <button class="logout-btn">Logout</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="D:\Shobha\DashboardAdmin.html">Dashboard</a></li>
+            <li><a href="D:\Shobha\VendorsAdmin.html">Vendors</a></li>
+            <li><a href="D:\Shobha\CustomerAdmin.html">Customers</a></li>
+            <li><a href="">Orders</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Reports and Analytics</a></li>
+        </ul>
+    </nav>
+    <!-- Main Content -->
+    <main>
+        <section class="summary">
+            <div class="card">
+                <h2>Total Sales Amount (This Month)</h2>
+                <p id="total-sales">$12,450.00</p>
+            </div>
+            <div class="card">
+                <h2>Number of Orders</h2>
+                <p id="num-orders">150</p>
+            </div>
+            <div class="card">
+                <h2>Average Order Value (AOV)</h2>
+                <p id="aov">$83.00</p>
+            </div>
+            <div class="card">
+                <h2>Top-Selling Products</h2>
+                <ul id="top-products">
+                </ul>
+            </div>
+            <div class="card">
+                <h2>Sales by Payment Method</h2>
+                <ul>id="payment-methods">
+                    <li>Credit Card, percentage: 60%</li>
+                    <li>PayPal', percentage: 25%</li>
+                    <li>Bank Transfer, percentage: 15%</li>
+                 </ul>   
+            </div>
+        </section>
+
+        <section class="product-list">
+            <h2>Recent Orders</h2>
+            <table id="orders-table">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Price</th>
+                        <th>Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <li>Flower Arrangement, price: $120, rating: 4.6</li>
+                    <li>Tablecloth Set, price: $40, rating: 4.4</li>
+                    <li>Wedding Arch, price: $350, rating: 5.0</li>
+                    <li>LED Party Lights, price: $80, rating: 4.3</li>
+                    <li>Centerpiece Vase, price: $75, rating: 4.6</li>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Shobha Private Limited. All Rights Reserved.</p>
+    </footer>
+    <script src="D:\Shobha\Total Sales Admin.js"></script>
+</body>
+</html>
