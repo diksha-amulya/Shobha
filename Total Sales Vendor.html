@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total Sales Dashboard</title>
+    <link rel="stylesheet" href="D:\Shobha\Total Sales Vendor.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <h1>Shobha</h1>
+            <div class="header-right">
+                <span>Welcome!</span>
+                <button class="logout-btn">Logout</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="D:\Shobha\Dashboard.html">Dashboard</a></li>
+            <li><a href="D:\Shobha\ProductsVendor.html">Products</a></li>
+            <li><a href="D:\Shobha\Orders.html">Orders</a></li>
+            <li><a href="D:\Shobha\Financials.html">Financials</a></li>
+            <li><a href="#">Customer Interaction</a></li>
+            <li><a href="#">Marketing and Promotion</a></li>
+            <li><a href="#">Shipping and Fulfillment</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section class="summary">
+            <div class="card">
+                <h2>Total Sales Amount (This Month)</h2>
+                <p id="total-sales">$12,450.00</p>
+            </div>
+            <div class="card">
+                <h2>Number of Orders</h2>
+                <p id="num-orders">150</p>
+            </div>
+            <div class="card">
+                <h2>Average Order Value (AOV)</h2>
+                <p id="aov">$83.00</p>
+            </div>
+            <div class="card">
+                <h2>Top-Selling Products</h2>
+                <ul id="top-products">
+                </ul>
+            </div>
+            <div class="card">
+                <h2>Sales by Payment Method</h2>
+                <ul id="payment-methods"></ul>
+                </ul>
+            </div>
+        </section>
+
+        <section class="product-list">
+            <h2>Recent Orders</h2>
+            <table id="orders-table">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Price</th>
+                        <th>Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Product list will be inserted here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Shobha Private Limited. All Rights Reserved.</p>
+    </footer>
+    <script src="D:\Shobha\Total Sales Vendor.js"></script>
+</body>
+</html>
